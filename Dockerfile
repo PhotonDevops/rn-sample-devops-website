@@ -1,13 +1,13 @@
 FROM node:6.11.2-alpine
 
 USER root
-WORKDIR /manulife-poc
+WORKDIR /devops
 
-ADD ./public  /manulife-poc/public
-ADD ./src /manulife-poc/src
-ADD ./config /manulife-poc/config
-ADD ./scripts /manulife-poc/scripts
-ADD ./package.json /manulife-poc/package.json
+ADD ./public  /devops/public
+ADD ./src /devops/src
+ADD ./config /devops/config
+ADD ./scripts /devops/scripts
+ADD ./package.json /devops/package.json
 
 RUN npm install
 
