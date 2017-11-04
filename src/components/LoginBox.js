@@ -20,7 +20,7 @@ handleSubmit(event){
         // When the form is submitted, call the onSearch callback that is passed to the component
         var emailElm = document.getElementById("email").value;
         var passwordElm = document.getElementById("password").value;
-        var username = {email:"devops@photon.com",password:"1234"};
+        var username = {email:"devops@photon.com",password:"Welcome123"};
         if(emailElm === username.email && passwordElm === username.password){
             alert("SUCCESS LOGIN");
         } else {
